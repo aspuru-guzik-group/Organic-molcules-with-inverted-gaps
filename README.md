@@ -3,7 +3,7 @@
 ### Paper: 
 ### Contact: rob.pollice@utoronto.ca and aspuru@utoronto.ca
 
-This repository contains template input files (inputs), computation results (results), optimized geometries (xyz) and a list of all compounds studied in the paper together with their SMILES and compound labels used both in the main text and in the Supporting Information.
+This repository contains template input files (inputs), computation results (results), optimized geometries (xyzs) and a list of all compounds studied in the paper together with their SMILES and compound labels used both in the main text and in the Supporting Information.
 
 ### License: [![CC BY NC SA 4.0][cc-by-nc-sa-button]][cc-by-nc-sa] [CC BY-NC-SA 4.0][cc-by-nc-sa]
 
