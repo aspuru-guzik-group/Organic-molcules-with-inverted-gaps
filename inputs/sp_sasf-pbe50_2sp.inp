@@ -1,0 +1,33 @@
+$molecule
+0 1
+xxxxx
+$end
+$rem
+SYM_IGNORE true
+METHOD PBE50
+BASIS def2-SVP
+JOBTYPE SP
+SET_ITER 500
+$end
+
+@@@
+
+$molecule
+0 3
+xxxxx
+$end
+$rem
+SYM_IGNORE true
+METHOD PBE50
+BASIS def2-SVP
+JOBTYPE SP
+SCF_GUESS read
+MAX_SCF_CYCLES 500
+SCF_ALGORITHM GDM
+SCF_CONVERGENCE 4
+UNRESTRICTED false
+SASF_RPA true
+CIS_N_ROOTS 4
+CIS_TRIPLETS false
+SET_ITER 500
+$end

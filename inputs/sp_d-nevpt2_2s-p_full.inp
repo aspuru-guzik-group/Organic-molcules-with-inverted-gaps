@@ -1,0 +1,47 @@
+! SP RI-MP2 RI-JK def2-SV(P) def2/JK def2-SVP/C MiniPrint PrintBasis PrintMOs
+%base "sp_mp2_2s-p_no"
+%mp2
+density unrelaxed
+natorbs true
+end
+
+* xyz 0 1 
+xxxxx
+*
+
+$new_job
+
+! SP RI-JK Conv def2-SV(P) def2/JK MiniPrint PrintBasis PrintMOs MORead
+%base "sp_casscf_2s-p"
+%moinp "sp_mp2_2s-p_no.mp2nat"
+%casscf
+nel 6
+norb 6
+mult 3,1
+nroots 4,4
+TrafoStep RI
+MaxIter 500
+end
+
+* xyz 0 1 
+xxxxx
+*
+
+$new_job
+
+! DLPNO-NEVPT2 SP RI-JK Conv def2-SV(P) def2/JK MiniPrint PrintBasis PrintMOs MORead
+%base "sp_d-nevpt2_2s-p"
+%moinp "sp_casscf_2s-p.gbw"
+%scf
+end
+%casscf
+nel 6
+norb 6
+mult 3,1
+nroots 4,4
+TrafoStep RI
+end
+
+* xyz 0 1 
+xxxxx
+*

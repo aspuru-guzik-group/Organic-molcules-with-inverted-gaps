@@ -1,0 +1,11 @@
+! B3LYP cc-pVDZ RI-JK def2/JK TightOPT Grid5 NoFinalGrid MiniPrint NoMOPrint KDIIS NOSOSCF
+%scf
+GuessMode FMatrix
+MaxIter 512
+DirectResetFreq 10
+DIISMaxEq 10
+end
+
+* xyz 0 1 
+xxxxx
+*

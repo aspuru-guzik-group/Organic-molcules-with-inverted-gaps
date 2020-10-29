@@ -1,0 +1,17 @@
+! RI-wB2PLYP SP def2-SVP def2-SVP/C RIJCOSX def2/J TightSCF MiniPrint NoMOPrint Grid5 NoFinalGrid KDIIS NOSOSCF FLOAT
+%scf
+GuessMode FMatrix
+MaxIter 512
+DirectResetFreq 10
+DIISMaxEq 10
+end
+%cis
+nroots 4
+triplets true
+dcorr 1
+maxcore 4300
+end
+
+* xyz 0 1 
+xxxxx
+*

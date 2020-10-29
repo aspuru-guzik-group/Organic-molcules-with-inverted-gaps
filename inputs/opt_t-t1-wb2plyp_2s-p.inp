@@ -1,0 +1,22 @@
+! RI-wB2PLYP NormalOpt NumGrad def2-SV(P) def2-SVP/C RIJCOSX def2/J TightSCF MiniPrint NoMOPrint Grid4 GridX4 MP2GridX2 NoFinalGrid KDIIS NOSOSCF FLOAT
+%scf
+GuessMode FMatrix
+MaxIter 512
+DirectResetFreq 10
+DIISMaxEq 10
+end
+%mp2
+density none
+end
+%cis
+mode riints
+nroots 2
+iroot 1
+irootmult triplet
+triplets true
+dcorr 3
+end
+
+* xyz 0 1 
+xxxxx
+*
