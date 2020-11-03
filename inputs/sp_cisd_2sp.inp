@@ -1,0 +1,17 @@
+$molecule
+0 1
+xxxxx
+$end
+$rem
+SYM_IGNORE         TRUE
+SYMMETRY           FALSE
+JOBTYPE            SP
+METHOD             RICIS(D)
+BASIS              def2-SVP
+AUX_BASIS          rimp2-def2-SVP
+CIS_N_ROOTS        4
+CIS_SINGLETS       TRUE
+CIS_TRIPLETS       TRUE
+MAX_CIS_CYCLES     1024
+STATE_ANALYSIS     TRUE
+$end
