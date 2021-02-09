@@ -9,3 +9,5 @@ This repository contains template input files (inputs), computation results (res
 
 [cc-by-nc-sa]: https://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-button]: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
+
+### DOI: [![DOI](https://zenodo.org/badge/308372451.svg)](https://zenodo.org/badge/latestdoi/308372451)
